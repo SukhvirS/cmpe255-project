@@ -82,7 +82,7 @@ class Home extends React.Component{
                                     <select className='form-control' defaultValue='linear' onChange={(e)=>{this.setState({model: e.target.value})}}>
                                         <option value='linear'>Linear</option>
                                         <option value='xgboost'>XGBoost</option>
-                                        <option value='neural'>Neural Network</option>
+                                        {/* <option value='neural'>Neural Network</option> */}
                                     </select>
                                 </div>
                             </div>
