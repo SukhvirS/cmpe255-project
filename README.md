@@ -7,6 +7,7 @@
 
 
 ### To use the project go to: https://cmpe255-project.herokuapp.com/
+
 ### How to compile and run the project locally
 1. Download the code from [github](https://github.com/SukhvirS/cmpe255-project)
 2. Open two terminal/command line windows (1 for backend server and 1 for frontend)
@@ -22,3 +23,6 @@
 4c. start the frontend using `yarn start`
 5. A new tab should open up at http://localhost:3000/ and the app should be running
 **Note: the app is not currently using the backend server because the REST API url is set to use the live server deployed to Heroku. To change this so that it is using the local backend server you started in step 3, you will have to change the api call url in the `Home.js` file in the `frontend/src/` folder. To do so you can change line 35 from `fetch(prodUrl, {` to `fetch(devUrl, {`**
+
+### Data
+The 2 files we used were properties_2016.csv and train_2016_v2.csv, both of which can be download from [Kaggle](https://www.kaggle.com/c/zillow-prize-1/data). However, the properties_2016.csv file was too large so we included a subset of it in the `data/` folder alongside the full train_2016_v2.csv file. We've also included a subset of the testing data we used to test the models in the `test_data_subset.csv` file in the `data/` folder.
