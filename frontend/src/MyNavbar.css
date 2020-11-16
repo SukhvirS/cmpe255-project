@@ -1,0 +1,20 @@
+
+#navbarDiv{
+    height:50px;
+    padding:40px;
+
+}
+
+.link:hover{
+    background-color:green;
+}
+
+
+p{
+    color:black;
+}
+
+p:hover{
+    text-decoration: none;
+    
+}
